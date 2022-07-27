@@ -1,0 +1,248 @@
+body{
+	background-image: url(pattern.png);
+}
+
+h1{
+	text-align: center;
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+p{ 
+	font-family: Arial, "Helvetica Neue", Helvetica, sans-serif; 
+	text-align: center;
+}
+
+
+/*Display*/
+.display{
+	display: inherit /*none*/ /*inline*/ /*block*/ /*inline-block*/;
+}
+
+/*Dimensi*/
+.kotak{
+	width: 100px;
+	height: 100px;
+
+	background-color: salmon;
+	margin: auto;
+	margin-bottom: 80px;
+	text-align: center;
+	line-height: 100px;
+}
+
+/*Overflow*/
+.container{
+	overflow: auto /*visible*/ /*scroll*/ /*hidden*/; 
+	
+	height: 200px;
+	width: 200px;
+	background-color: gray;
+	margin: auto;
+	margin-bottom: 80px;
+}
+
+/*Box Model*/
+	/*Margin*/
+	.box1{
+		height: 200px;
+		width: 200px;
+		background-color: lightblue;
+	}
+	.box2{
+		/*margin-top: 10px;*/
+		/*margin-right: 10px;*/
+		/*margin-bottom: 50px;*/
+		/*margin-left: 10px;*/
+		margin: 10px 10px 50px 10px;
+		
+		
+		width: 150px;
+		height: 150px;
+		background-color: salmon; 
+
+	}
+	.box3{
+		margin-top: 10px;
+		margin-bottom: 50px;
+		
+
+		width: 50px;
+		height: 50px;
+		background-color: violet;
+	}
+
+	.box4{
+		margin-right: 30px;
+		
+
+		height: 200px;
+		width: 200px;
+		background-color: lightblue;
+		display: inline-block;
+	}
+	.box5{
+		margin-left: 20px;
+		
+
+		width: 150px;
+		height: 150px;
+		background-color: salmon; 
+		display: inline-block;
+	}
+	.box6{
+		margin-left: -20px;
+		
+
+		width: 50px;
+		height: 50px;
+		background-color: lime;
+		display: inline-block;
+	}
+	
+	.auto{
+	margin: 20px auto;
+	
+
+	width: 100px;
+	height: 100px;
+	background-color: red;	
+	}
+
+	.shorthand{
+	/*margin: 50px;*/
+	/*margin: 50px auto;*/
+	/*margin: 30px 50px 40px;*/
+	/*margin: 30px 20px 40px 10px;*/
+	margin: 20px auto;
+	
+
+	width: 100px;
+	height: 100px;
+	background-color: green;
+	}
+
+	/*Padding*/
+	.text{
+		/*padding-top: 20px;*/
+		/*padding-right: 20px;*/
+		/*padding-bottom: 20px;*/
+		/*padding-left: 20px;*/
+		/*padding: 20px 20px 20px 20px;*/
+		/*padding: 20px 20px 20px;*/
+		/*padding: 20px 20px;*/
+		padding: 20px;
+		
+
+		width: 200px;
+		height: 200px;
+		background-color: coral;
+		margin: 20px auto; 
+	}
+
+	/*Border*/
+	.text2{
+		/*border: 5px dotted #000;*/
+		/*border: 5px dashed #000;*/
+		/*border: 5px double #000;*/
+		/*border: 5px solid #000;*/
+		/*border-top: 3px solid #000;*/
+		border-right: 3px dashed #000;
+		/*border-bottom: 3px solid #000;*/
+		border-left: 3px solid #000;
+
+
+		box-sizing: border-box;
+		padding: 20px;
+		width: 250px;
+		height: 250px;
+		background-color: coral;
+		margin: 20px auto; 
+	}
+
+
+/*Float*/
+	/*Text Wrapping*/
+	.float{
+		width: 100px;
+		height: 100px;
+	}
+
+	.container2{
+ 		width: 814px;
+		border: 1px solid #000;
+		margin: 50px auto;
+		padding: 5px;
+		box-sizing: border-box;
+		/*overflow: auto;*/
+	}
+
+	.img1{
+		float: right;
+		
+		padding: 5px;
+	}
+
+
+	/*Image Gallery*/
+	.kotak2{
+		float: left;
+
+		width: 80px;
+		height: 80px;
+		background-color: salmon;
+		text-align: center;
+		line-height: 80px;
+		color: #fff;
+		margin: 5px;
+	}
+
+	/*Multiple Colom*/
+	.kiri{
+		float: left;
+
+		width: 150px;
+		height: 500px;
+		background-color: salmon;
+	}
+
+	.tengah{
+		float: left;
+
+		width: 500px;
+		height: 500px;
+		background-color: lightblue;
+	}
+
+	.kanan{
+		float: right;
+
+		width: 150px;
+		height: 500px;
+		background-color: lightgreen;
+	}
+
+	/*Clear*/
+	.clear{
+		clear: both;
+	}
+	.clear-left{
+		clear: left;
+	}
+
+	/*Micro Clearfix*/
+	.clear-fix:before,
+	.clear-fix:after {
+    	content: " "; /* 1 */
+    	display: table; /* 2 */
+	}
+
+	.clear-fix:after {
+    	clear: both;
+	}
+
+
+
+
+/*Positioning*/
+
+
+
