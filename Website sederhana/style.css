@@ -47,6 +47,16 @@ table {
 
 
 /*Style*/
+.top-bar{
+	background-color: lightskyblue;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 30px;
+	z-index: 1;
+	border-bottom: 4px solid salmon;
+}
 body {
 	font: 16px/20px arial, sans-serif;
 	background-image: url(pattern.png);
@@ -56,6 +66,19 @@ body {
 	width: 960px;
 	margin: 80px auto;
 	background-color: #fff;
+	position: relative;
+}
+
+.twitter {
+	width: 400px;
+	height: 300px;
+	text-indent: -9999px;
+	display: inline-block;
+	position: absolute;
+	top: -29px;
+	right: -179px;
+	background-image: url(twitter.png);
+	background-repeat: no-repeat;
 }
 
 header{
@@ -85,7 +108,8 @@ header a:hover{
  
 .hero{
 	height: 350px;
-	background-image: url(hero-image.png);
+	background-image: url(bg.jpg);
+	background-position: 0 -10rem;
 	background-size: cover;
 	border-top: 5px solid salmon;
 	border-bottom: 5px solid lightskyblue;
@@ -112,7 +136,7 @@ header a:hover{
 
 .main p{
 	margin-bottom: 14px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 .footer{
